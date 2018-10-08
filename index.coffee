@@ -12,6 +12,10 @@ font_color = 'WHITE'
 background = 'rgba(#000, .5)'
 #
 #
+# Font 
+font_type = "Helvetica Neue"
+#
+#
 # Toggle options
 centered = false  # Set to true to easily center the widget on screen
 #
@@ -33,7 +37,7 @@ style: """
     font-size: 16px
     border-radius: 5px
     padding: 15px
-    font-family: "Helvetica Neue"
+    font-family: #{font_type}
     background-color: #{background}
     border-radius 5px
     
